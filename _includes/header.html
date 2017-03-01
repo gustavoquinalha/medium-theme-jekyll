@@ -1,0 +1,30 @@
+<header class="tamanho-menu">
+  <div class="menu">
+    <div class="menu-logo">
+      <img src="img/logo.png" width="50" alt="" />
+    </div>
+    <div class="menu-menu">
+      <nav class="menu-item">
+          {% for page in site.pages %}
+            {% if  page.title %}
+              <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </nav>
+    </div>
+  </div>
+</header>
+
+
+<!--header class="masthead">
+  <h1 class="masthead-title">
+    <a href="{{ site.baseurl }}/">{{ site.title }}<span>&#39;s blog</span></a>
+  </h1>
+  <nav class="masthead-nav">
+    {% for page in site.pages %}
+      {% if  page.title %}
+        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      {% endif %}
+    {% endfor %}
+  </nav>
+</header-->

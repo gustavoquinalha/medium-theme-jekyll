@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+  html {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+.cor {
+  color: #00AB6B
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.tamanho-menu {
+  background: #fff;
+  width: 100%;
+}
+
+.menu {
+  width: 1400px;
+  height: 50px;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+}
+
+.menu-logo {
+  flex: 1
+}
+
+.menu-menu{
+}
+
+.menu-item a {
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 5px;
+  transition: 0.5s
+}
+
+.menu-item a:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.tamanho {
+  width: 1400px;
+  max-width: 90%;
+  margin: 0 auto
+}
+
+.tags {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.tag {
+  padding-left: 20px;
+  font-size: 14px
+}
+
+.cards-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 800px;
+  max-width: 98%;
+}
+
+.borda-full {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.cards {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  max-height: 300px;
+  margin-bottom: 10px;
+}
+.post-title a {
+  color: rgba(0, 0, 0, 0.9);
+}
+.card-topo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px
+}
+.foto-quem-postou {
+  margin-right: 10px
+}
+
+.foto-qp {
+  width: 30px;
+  height: 30px;
+  background: #00AB6B;
+  border-radius: 50%
+}
+.autor-title {
+  flex: 1;
+  line-height: 10px
+}
+.autor-title h2 {
+  color: #00AB6B;
+  font-size: 14px
+}
+
+.autor-title span {
+  font-size: 10px;
+}
+
+.resumo {
+  line-height: 18px
+}
+
+.card-botao {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.btn-read-more {
+  background: transparent;
+  color: #00AB6B;
+  border: 1px solid #00AB6B;
+  min-width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  transition: 0.5s
+}
+
+.btn-read-more:hover {
+  background: #00AB6B;
+  color: #fff;
+  border: 1px solid #00AB6B;
+}
