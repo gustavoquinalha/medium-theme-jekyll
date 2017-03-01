@@ -1,3 +1,6 @@
+<div class="tamanho-titulo">
+  <h2 class="titulo">recents posts</h2>
+</div>
 <div class="tamanho cards-flex">
   {% if site.posts.size == 0 %}
   <h2>No post found</h2> {% else %} {% for post in site.posts %}
@@ -27,10 +30,10 @@
       </div>
       <div class="card-botao">
         <div class="card-btn1">
-          <button type="button" name="button" class="btn-read-more">read more...</button>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="btn-read-more">read more...</a>
         </div>
         <div class="minutes">
-          <strong>4 minutos</strong> para ler
+          <strong>4 min</strong> for read
         </div>
       </div>
     </div>

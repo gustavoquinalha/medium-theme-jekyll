@@ -53,7 +53,9 @@ h6 {
 .menu-item a {
   color: rgba(0, 0, 0, 0.5);
   margin-left: 5px;
-  transition: 0.5s
+  transition: 0.5s;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .menu-item a:hover {
@@ -97,8 +99,16 @@ h6 {
 
 .cards {
   border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
   max-height: 300px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  transition: 0.2s;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+.cards:hover {
+  -webkit-transform: scale(1.1);
+            transform: scale(1.1);
 }
 .post-title a {
   color: rgba(0, 0, 0, 0.9);
@@ -127,13 +137,17 @@ h6 {
   color: #00AB6B;
   font-size: 14px
 }
-
+.card-resumo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .autor-title span {
   font-size: 10px;
 }
 
 .resumo {
-  line-height: 18px
+  line-height: 18px;
+  font-size: 14px;
 }
 
 .card-botao {
@@ -146,15 +160,37 @@ h6 {
 .btn-read-more {
   background: transparent;
   color: #00AB6B;
-  border: 1px solid #00AB6B;
+  /*border: 1px solid #00AB6B;*/
   min-width: 100px;
   height: 40px;
   border-radius: 20px;
-  transition: 0.5s
+  transition: 0.5s;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .btn-read-more:hover {
-  background: #00AB6B;
-  color: #fff;
-  border: 1px solid #00AB6B;
+  color: rgba(0, 0, 0, 0.9);
+}
+.minutes {
+  font-size: 12px;
+}
+
+footer {
+background: #00AB6B;
+width: 100%;
+padding-top: 20px;
+padding-bottom: 20px;
+color: #fff;
+font-size: 14px;
+}
+.titulo {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+}
+.tamanho-titulo {
+  width: 800px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-bottom: 10px;
 }
