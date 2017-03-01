@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Hello Minimal!"
+title:  "Sequi quaerat nemo quos non quasi"
+description: "Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum neque quisquam sequi quaerat..."
 date:   2016-03-17 23:28:03 -0300
-categories: start blog
-image: img/2.png
+image: "img/2.jpeg"
+category: teste3
+tags: [teste3, teste2]
 ---
 
 # Heading 1

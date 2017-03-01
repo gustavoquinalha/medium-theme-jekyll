@@ -1,0 +1,16 @@
+<div ng-app="searchApp">
+  <div ng-controller="searchController">
+  <div class="inpt">
+      <input type="text" ng-model="search" class="input-busca" ng-keyup="pesquisar(search)" placeholder="search...">
+  </div>
+    <div class="aparece-busca">
+      <ul ng-show="posts.length > 0" class="ap-busca">
+        <li ng-repeat="post in posts | filter:search">
+          <a href="{( post.url )}"  class="apb">
+            <span>{( post.title )}</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

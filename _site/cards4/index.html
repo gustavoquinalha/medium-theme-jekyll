@@ -23,6 +23,25 @@
         </div>
       </div>
     </div>
+    <div class="menu-busca">
+      <div ng-app="searchApp">
+  <div ng-controller="searchController">
+  <div class="inpt">
+      <input type="text" ng-model="search" class="input-busca" ng-keyup="pesquisar(search)" placeholder="search...">
+  </div>
+    <div class="aparece-busca">
+      <ul ng-show="posts.length > 0" class="ap-busca">
+        <li ng-repeat="post in posts | filter:search">
+          <a href="{( post.url )}"  class="apb">
+            <span>{( post.title )}</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    </div>
     <div class="menu-menu">
       <nav class="menu-item">
           
@@ -47,9 +66,15 @@
             
           
             
+              <a href="/categorias/">categorias</a>
+            
+          
+            
           
             
               <a href="/">Home</a>
+            
+          
             
           
             
@@ -87,9 +112,15 @@
       
     
       
+        <a href="/categorias/">categorias</a>
+      
+    
+      
     
       
         <a href="/">Home</a>
+      
+    
       
     
       
@@ -107,15 +138,15 @@
 
   <div class="card3">
     <div class="card3flex">
-      <div class="c3 card3img" style="background: url(/img/1.png);">
+      <div class="c3 card3img" style="background: url(/img/4.jpeg);">
 
       </div>
       <div class=" c3 card3text">
         <h2 class="post-title">
-          <a href="/tey/">Teste titulo bla</a>
+          <a href="/tey/">Lorem Ipsum is simply dummy text</a>
         </h2>
         <div class="resumo esp">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...
         </div>
         <div class="card-topo">
           <div class="foto-quem-postou">
@@ -139,15 +170,15 @@
 
   <div class="card3">
     <div class="card3flex">
-      <div class="c3 card3img" style="background: url(/img/1.png);">
+      <div class="c3 card3img" style="background: url(/img/3.jpeg);">
 
       </div>
       <div class=" c3 card3text">
         <h2 class="post-title">
-          <a href="/tey-(3rd-copy)/">Hello Minimal!</a>
+          <a href="/tey-(3rd-copy)/">Consectetur adipisicing elit</a>
         </h2>
         <div class="resumo esp">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+          Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet...
         </div>
         <div class="card-topo">
           <div class="foto-quem-postou">
@@ -171,15 +202,15 @@
 
   <div class="card3">
     <div class="card3flex">
-      <div class="c3 card3img" style="background: url(/img/2.png);">
+      <div class="c3 card3img" style="background: url(/img/2.jpeg);">
 
       </div>
       <div class=" c3 card3text">
         <h2 class="post-title">
-          <a href="/hello-minimal/">Hello Minimal!</a>
+          <a href="/hello-minimal/">Sequi quaerat nemo quos non quasi</a>
         </h2>
         <div class="resumo esp">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+          Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum neque quisquam sequi quaerat...
         </div>
         <div class="card-topo">
           <div class="foto-quem-postou">
@@ -203,7 +234,7 @@
 
   <div class="card3">
     <div class="card3flex">
-      <div class="c3 card3img" style="background: url(/img/2.png);">
+      <div class="c3 card3img" style="background: url(/img/1.jpeg);">
 
       </div>
       <div class=" c3 card3text">
@@ -211,7 +242,7 @@
           <a href="/welcome-to-jekyll/">Welcome to Jekyll!</a>
         </h2>
         <div class="resumo esp">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+          You’ll find this post in your `_posts` directory.
         </div>
         <div class="card-topo">
           <div class="foto-quem-postou">
@@ -242,6 +273,14 @@
   </p>
 </div>
 </footer>
+
+
+  <script type="text/javascript">
+   var GLOBAL_BASEURL = "";
+   </script>
+
+   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>
+   <script type="text/javascript" src="/search.js"></script>
 
 </body>
 </html>
