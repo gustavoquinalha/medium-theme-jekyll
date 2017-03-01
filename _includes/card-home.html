@@ -1,0 +1,79 @@
+<div class="tamanho cards-flex">
+  {% if site.posts.size == 0 %}
+  <h2>No post found</h2> {% else %} {% for post in site.posts limit:1 %}
+
+
+
+  <div class="card3">
+    <div class="card3flex">
+      <div class="c3 card3img" style="background: url({{ site.baseurl }}/{{ post.image }});">
+
+      </div>
+      <div class=" c3 card3text">
+        <h2 class="post-title">
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </h2>
+        <div class="resumo esp">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...
+        </div>
+        <div class="card-topo">
+          <div class="foto-quem-postou">
+            <div class="foto-qp">
+
+            </div>
+          </div>
+          <div class="autor-title">
+            <h2>Gustavo Quinalha</h2>
+            <span><time>{{ post.date | date_to_string }}</time></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {% endfor %} {% endif %}
+</div>
+
+
+<div class="tamanho cards-flex">
+  {% if site.posts.size == 0 %}
+  <h2>No post found</h2> {% else %} {% for post in site.posts limit:1 %}
+
+
+
+  <div class="cards">
+    <div class="borda-full">
+      <div class="card-topo">
+        <div class="foto-quem-postou">
+          <div class="foto-qp">
+
+          </div>
+        </div>
+        <div class="autor-title">
+          <h2>Gustavo Quinalha</h2>
+          <span><time>{{ post.date | date_to_string }}</time></span>
+        </div>
+      </div>
+      <div class="card-resumo">
+        <h2 class="post-title">
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </h2>
+        <div class="resumo">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim...
+        </div>
+      </div>
+      <div class="card-botao">
+        <div class="card-btn1">
+          <a href="{{ site.baseurl }}{{ post.url }}" class="btn-read-more">read more...</a>
+        </div>
+        <div class="minutes">
+          <strong>4 min</strong> for read
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {% endfor %} {% endif %}
+</div>

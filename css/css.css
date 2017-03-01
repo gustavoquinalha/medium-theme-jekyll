@@ -40,16 +40,21 @@ h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);;
+  /*border-bottom: 1px solid rgba(0, 0, 0, 0.1);*/
 }
 
 .menu-logo {
   flex: 1
 }
-
+.logoescrito {
+  font-weight: bold;
+}
 .menu-menu{
 }
-
+.logo-flex {
+  display: flex;
+  align-items: center;
+}
 .menu-item a {
   color: rgba(0, 0, 0, 0.5);
   margin-left: 5px;
@@ -74,7 +79,7 @@ h6 {
   align-items: center;
   height: 50px;
   font-size: 16px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .tag {
@@ -88,30 +93,79 @@ h6 {
   flex-direction: column;
   align-items: stretch;
   justify-content: flex-start;
-  width: 800px;
-  max-width: 98%;
+  max-width: 90%;
+}
+
+.cards-flex2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .borda-full {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
 }
 
 .cards {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 2px;
-  max-height: 300px;
+  min-height: 150px;
   margin-bottom: 20px;
   transition: 0.2s;
   padding-top: 20px;
   padding-bottom: 20px
 }
 .cards:hover {
-  -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+
+}
+
+.card-foto {
+  width: 100%;
+  height: 150px;
+  background: #ccc;
+  background-position: center center!important;
+  background-size: cover!important;
+  margin-top: 20px;
+}
+.cards2 {
+  flex-grow: 1;
+  flex-basis: 300px;
+  margin: 10px;
+  padding-bottom: 25px
+}
+.card2 {
+  margin: 0 auto;
+}
+.foto-card2 {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 200px;
+  width: 100%;
+}
+.foto-c2 {
+  background-position: center center!important;
+  background-size: cover!important;
+  background-origin: content-box;
+  height: 200px;
+  width: 100%;
+}
+.resumo2 {
+  font-size: 18px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.7);
 }
 .post-title a {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(0, 0, 0, 0.8);
+}
+.post-title {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 40px;
+  font-weight: bold;
+}
+.post-date {
+  padding-bottom: 20px;
 }
 .card-topo {
   display: flex;
@@ -126,7 +180,7 @@ h6 {
 .foto-qp {
   width: 30px;
   height: 30px;
-  background: #00AB6B;
+  background: #ccc;
   border-radius: 50%
 }
 .autor-title {
@@ -146,8 +200,9 @@ h6 {
 }
 
 .resumo {
-  line-height: 18px;
-  font-size: 14px;
+  line-height: 22px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .card-botao {
@@ -177,12 +232,13 @@ h6 {
 }
 
 footer {
-background: #00AB6B;
+background: #fff;
 width: 100%;
-padding-top: 20px;
-padding-bottom: 20px;
-color: #fff;
+padding-top: 50px;
+padding-bottom: 50px;
+color: rgba(0, 0, 0, 0.5);;
 font-size: 14px;
+margin-top: 20px;
 }
 .titulo {
   color: rgba(0, 0, 0, 0.8);
@@ -193,4 +249,73 @@ font-size: 14px;
   max-width: 90%;
   margin: 0 auto;
   padding-bottom: 10px;
+}
+.post-image {
+  width: 100%;
+  height: 300px;
+  background: #ccc;
+  background-position: center center!important;
+  background-size: cover!important;
+}
+.post {
+  width: 800px;
+  max-width: 90%;
+  overflow: hidden;
+  margin: 0 auto
+}
+
+.about-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 500px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.aboutp {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #ccc;
+}
+
+.about h2 {
+  color: rgba(0, 0, 0, 0.8);
+}
+.about p {
+  font-size: 16px;
+  line-height: 18px;
+}
+.tamanho-comment {
+  width: 800px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.card3 {
+  flex: 1
+}
+.card3flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.c3 {
+  flex-basis: 300px
+}
+.card3img {
+  flex: 2;
+  height: 300px;
+  background-position: center center!important;
+  background-size: cover!important;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+.card3text {
+  flex: 1;
+  height: 200px;
+}
+.esp {
+  padding-bottom: 10px
 }

@@ -5,9 +5,29 @@
     <description>Esse é um blog minimalista criado para aprender como funciona essa ferramenta linda que é o Jekyll.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 01 Mar 2017 11:45:04 -0300</pubDate>
-    <lastBuildDate>Wed, 01 Mar 2017 11:45:04 -0300</lastBuildDate>
+    <pubDate>Wed, 01 Mar 2017 15:33:44 -0300</pubDate>
+    <lastBuildDate>Wed, 01 Mar 2017 15:33:44 -0300</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>Teste titulo bla</title>
+        <description>&lt;h2 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 17 Mar 2016 23:28:03 -0300</pubDate>
+        <link>http://localhost:4000/tey/</link>
+        <guid isPermaLink="true">http://localhost:4000/tey/</guid>
+        
+        
+        <category>start</category>
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Hello Minimal!</title>
@@ -38,8 +58,8 @@
 &lt;p&gt;&lt;img src=&quot;https://i.ytimg.com/vi/mW3S0u8bj58/maxresdefault.jpg&quot; alt=&quot;Gatinho branco com carinha de coitado&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 17 Mar 2016 23:28:03 -0300</pubDate>
-        <link>http://localhost:4000/tey/</link>
-        <guid isPermaLink="true">http://localhost:4000/tey/</guid>
+        <link>http://localhost:4000/tey-(3rd-copy)/</link>
+        <guid isPermaLink="true">http://localhost:4000/tey-(3rd-copy)/</guid>
         
         
         <category>start</category>

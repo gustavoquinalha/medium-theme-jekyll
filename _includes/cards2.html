@@ -1,0 +1,37 @@
+<div class="tamanho">
+  <!--h2 class="titulo">recents posts</h2-->
+</div>
+<div class="tamanho cards-flex2">
+  {% if site.posts.size == 0 %}
+  <h2>No post found</h2> {% else %} {% for post in site.posts limit:3 %}
+
+  <div class="cards2">
+    <div class="card2">
+      <div class="foto-card2">
+        <div class="foto-c2" style="background: url({{ site.baseurl }}/{{ post.image }});">
+
+        </div>
+      </div>
+      <h2 class="post-title">
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      <div class="resumo2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore...
+      </div>
+      <div class="card-topo">
+        <div class="foto-quem-postou">
+          <div class="foto-qp">
+
+          </div>
+        </div>
+        <div class="autor-title">
+          <h2>Gustavo Quinalha</h2>
+          <span><time>{{ post.date | date_to_string }}</time></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {% endfor %} {% endif %}
+</div>

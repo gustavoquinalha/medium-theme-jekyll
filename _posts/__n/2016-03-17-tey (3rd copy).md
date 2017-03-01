@@ -3,7 +3,7 @@ layout: post
 title:  "Hello Minimal!"
 date:   2016-03-17 23:28:03 -0300
 categories: start blog
-image: img/2.png
+image: http://pipsum.com/435x310.jpg
 ---
 
 # Heading 1

@@ -3,8 +3,11 @@ layout: default
 ---
 
 {% include minutes-to-read.html %}
+<div class="post-image" style="background:url( {{ site.baseurl }}/{{ page.image }})">
 
-<article class="content post">
+</div>
+  <article class="post">
+
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-date">
         <time>{{ page.date | date_to_string }}</time>
@@ -13,5 +16,10 @@ layout: default
 
     {{ content }}
 
-    {% include comments.html %}
+
 </article>
+
+{% include ultimos.html %}
+<div class="tamanho-comment">
+{% include comments.html %}
+</div>
